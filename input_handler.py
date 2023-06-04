@@ -9,10 +9,12 @@ def get_user_attack():
      
 user_attack_input = get_user_attack() 
  
+ 
+ #function for defence input
 
 def get_user_defence():
 
-     input_defence = int(input("Choose your defence(1 for high or 2 for low):"))
+     input_defence = input("Choose your defence(1 for high or 2 for low):")
      if(input_defence == "1 for high" or input_defence == "2 for low"):
           return("input_defence")
      else:
